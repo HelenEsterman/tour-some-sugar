@@ -8,7 +8,7 @@ export const bookingsList = () => {
     bookingHtml += "<ul>"
 
     for (const booking of bookings) {
-        bookingHtml += `<li data-type="bookings" data-band="${booking.bandName}">${booking.bandName} is playing at ${booking.venueName} on ${booking.bookingDate}</li>`
+        bookingHtml += `<li id= "bookings" data-type="bookings" data-band="${booking.bandName}">${booking.bandName} is playing at ${booking.venueName} on ${booking.bookingDate}</li>`
     }
     bookingHtml += "</ul>"
     return bookingHtml
