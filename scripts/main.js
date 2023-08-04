@@ -5,7 +5,7 @@ import { venuesList } from "./venues.js"
 const mainContainer = document.querySelector(".container")
 
 const applicationHTML = `
-<h1>Brewed Awakenings</h1>
+<h1>Tour Some Sugar on Me</h1>
 <article class="bookings">
     <h2>Bookings</h2>
     ${bookingsList()}

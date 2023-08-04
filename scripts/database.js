@@ -130,7 +130,7 @@ const database = {
     {
         id: 7,
         bookingDate: "8/15/24",
-        bandName: "Lunar Echoes",
+        bandName: "The Jean Bean Dream Machine",
         venueName: "Star Struck Stadium"
     },
     {
